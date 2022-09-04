@@ -12,3 +12,5 @@ let userSchema = new mongoose.Schema({
     password: {type:String, require: true},
     entryDate: {type:Date, default:Date.now}
 })
+
+// will export both into 1 parent object -- which we can them later reference its key/value properties in the UI
