@@ -10,6 +10,7 @@ const connectDB = require('./config/database')
 // const mainRoutes = require('./routes/main')
 // const todoRoutes = require('./routes/todos')
 
+
 require('dotenv').config({path: './config/.env'})
 
 // Passport config
@@ -39,6 +40,9 @@ app.use(
 app.use(flash())
 
 // add routes here - ones w'ell create
+app.use('/'. indexRouter)
+app.use('/menu', menuRouter)
+app.use('/login', loginRouter)
 
  
 app.listen(process.env.PORT, ()=>{
