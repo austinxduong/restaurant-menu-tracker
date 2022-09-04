@@ -20,3 +20,5 @@ let mySchemas = {
     'menu' : menu,
     'users': users,
 }
+
+module.exports = mySchemas
