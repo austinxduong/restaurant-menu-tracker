@@ -13,4 +13,4 @@ let userSchema = new mongoose.Schema({
     entryDate: {type:Date, default:Date.now}
 })
 
-// will export both into 1 parent object -- which we can them later reference its key/value properties in the UI
+// will export both into 1 parent object -- which we can then later reference its key/value properties in the UI
