@@ -10,6 +10,8 @@ const connectDB = require('./config/database')
 // const mainRoutes = require('./routes/main')
 // const todoRoutes = require('./routes/todos')
 const indexRouter = require('./routes/index')
+const indexRouter = require('./routes/menu')
+const indexRouter = require('./routes/login')
 
 
 require('dotenv').config({path: './config/.env'})
